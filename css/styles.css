@@ -18,23 +18,24 @@ body {
 }
 a {
   text-decoration: none;
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
 }
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -61,206 +62,216 @@ img {
   margin: 0;
 }
 
-.web-studio-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+.header-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
   margin-right: 76px;
 }
 
-.studio-logo {
+.header-logo-part {
   color: #2e2f42;
 }
 
-.head-nav-link {
-  font-weight: 500;
+.header-nav-link {
+  color: #2e2f42;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   padding: 24px 0;
   display: block;
 }
-.head-nav-link:hover,
+.header-nav-link:hover,
 :focus {
   color: #404bbf;
 }
 
 /* Contacts */
-.address {
+.contacts {
   font-style: normal;
 }
 .contacts-list {
   display: flex;
   gap: 40px;
 }
-.contacts-link {
+.header-contact-link {
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
-.contacts-link:hover,
+.header-contact-link:hover,
 :focus {
   color: #404bbf;
 }
 
 /* Main */
 /* Section 1 */
-.section-one {
+.hero {
+  background-color: #2e2f42;
   padding: 188px 0;
-  background: var(--NAVY-BLUE, #2e2f42);
 }
-.h-one {
-  max-width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
+.title {
+  color: #fff;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
   font-family: Roboto, sans-serif;
+  font-size: 56px;
   font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  max-width: 496px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
 }
-.order-service-button {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
+.start-button-link {
+  color: #fff;
   background-color: #4d5ae5;
-  border-radius: 4px;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
+  cursor: pointer;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
   margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
-.order-service-button:hover,
+.start-button-link:hover,
 :focus {
   background-color: #404bbf;
 }
 /* Section 2 */
-.section-two {
+.advantages {
   padding: 120px 0;
 }
 
-.trait-name-list {
+.advantages-list {
   display: flex;
   gap: 24px;
 }
-.trait-name-list-item {
+.advantages-item {
   width: calc((100% - 72px) / 4);
 }
 
-.trait-name {
+.section-title {
   margin-bottom: 8px;
-  font-weight: 500;
+  color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
-.trait-description {
+.text-title {
+  color: #434455;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* Section 3*/
-.section-three {
-  background-color: #f4f4fd;
-  padding: 120px 0;
-}
-.h-our-team {
-  margin-bottom: 72px;
-  font-size: 36px;
-  line-height: 1.11;
+.title-our-team {
   text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
-  color: var(--NAVY-BLUE, #2e2f42);
+  margin-bottom: 72px;
 }
-.our-team-list {
+.team-list {
   display: flex;
   gap: 24px;
 }
-.our-team-list-item {
-  background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4 px;
-}
-.person-name-job {
-  padding: 32px 0;
-}
-.team-member-name {
-  text-align: center;
-  margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.our-team {
+  background-color: #f4f4fd;
   color: #2e2f42;
-}
-.member-job-name {
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-/* Section 4 */
-.section-four {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.h-our-portfolio {
-  margin-bottom: 72px;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding: 120px 0;
+}
+.title-name {
   color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+.text-name {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.portfolio-list-item {
-  width: calc((100% - 48px) / 3);
+.team-box {
+  text-align: center;
+  padding: 32px 0;
 }
-.portfolio-example {
+.our-team-list-items {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Section 4 */
+.our-portfolio {
+  background-color: #fff;
+  padding: 120px 0 120px 0;
+}
+.title-portfolio {
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.portfolio-box {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.portfolio-part {
-  margin-bottom: 8px;
-  font-weight: 500;
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.app-name {
+  color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  margin-bottom: 8px;
 }
-.portfolio-description {
+.app-job {
+  color: #434455;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* Footer */
 .footer {

@@ -55,6 +55,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 40px;
 }
 .header-nav {
   display: flex;
@@ -75,6 +76,10 @@ img {
 
 .header-logo-part {
   color: #2e2f42;
+}
+.header-nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-nav-link {

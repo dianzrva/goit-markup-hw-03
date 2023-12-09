@@ -100,21 +100,24 @@ img {
 .contacts {
   font-style: normal;
 }
-.contacts-list {
+.contacts-items {
   display: flex;
   gap: 40px;
+  font-style: normal;
 }
-.header-contact-link {
-  color: #434455;
+.contacts-item {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  color: #434455;
   letter-spacing: 0.02em;
 }
-.header-contact-link:hover,
-.header-contact-link:focus {
+
+.contacts-item:hover,
+.contacts-item:focus {
   color: #404bbf;
 }
+
 /* Main */
 /* Section 1 */
 .hero {
